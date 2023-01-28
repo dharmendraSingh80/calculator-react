@@ -1,0 +1,99 @@
+/* body style */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*--- styles for App class--- */
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/*-- styles for title-- */
+.title {
+  margin-top: 5%;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(93, 92, 92);
+}
+
+
+/* --styles for container-- */
+.calculator-container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 280px;
+  text-align: center;
+  border: 10px solid #101116;
+  background-color: #101116;
+  border-radius: 10px;
+}
+
+/* ---styles for keypad-- */
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+}
+
+/* ---style for display-- */
+input[type='text'] {
+  height: 75px;
+  width: 249px;
+  background-color: #10111600;
+  border: 0px;
+  color: #fff;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+
+/* style for buttons */
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #262834;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+/* heighlighting the operator buttons */
+.heighlight {
+  background-color: #da334f;
+}
+
+.heighlight-opts {
+  background-color: gray;
+}
