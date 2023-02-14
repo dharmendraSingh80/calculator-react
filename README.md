@@ -5,15 +5,18 @@ This is simple calculator which is build using react
 ## Functionalites
 
 Some basic functionalities
--Add
--Multiply
--Subtract
--Divide
--Clear
--Equals
--Backspace
--Toggle (+/-)
--Percentage
+- Add
+- Multiply
+- Subtract
+- Divide
+- Clear
+- Equals
+- Backspace
+- Toggle (+/-)
+- Percentage
+
+## ScreenShot
+![Screenshot (6)](https://user-images.githubusercontent.com/114590452/218747450-7dfd9666-e939-4958-a07b-9f665f08a2ac.png)
 
 # Getting Started with Create React App
 
