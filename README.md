@@ -15,6 +15,9 @@ Some basic functionalities
 - Toggle (+/-)
 - Percentage
 
+## Hosted Link
+https://calculator-ds.onrender.com
+
 ## ScreenShot
 ![Screenshot (6)](https://user-images.githubusercontent.com/114590452/218747450-7dfd9666-e939-4958-a07b-9f665f08a2ac.png)
 
